@@ -186,10 +186,10 @@ on:
         type: choice
         options:
           - angel
-          - yourname
+          - KevinDoni
 
 env:
-  TZ: America/New_York
+  TZ: Asia/Jakarta
   ROOTFS_SCRIPT: compile-kernel/tools/script/armbian_rootfs.sh
 
 jobs:
@@ -288,7 +288,7 @@ jobs:
           body: |
             ### Armbian Image information
             - Default username: root
-            - Default password: 1234
+            - Default password: root
             - Install command: armbian-install
             - Update command: armbian-update
             ### Armbian Image Verification
